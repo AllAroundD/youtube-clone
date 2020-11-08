@@ -15,7 +15,7 @@ This project is a small clone of youtube to demonstrate functionalities.
 
 ## Installation
 
-For just using the application, there is no installation required. The application url is http://youtube-clone-85cc9.web.app/.
+For just using the application, there is no installation required. The application url is .
 For the local setup of this application, there are a few npm modules that are required (react, react-scripts, react-dom, etc.). Once the repository is cloned, typing 'npm install' at the command prompt will install all of the required modules.
 
 ## Usage
