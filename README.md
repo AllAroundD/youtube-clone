@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+![issues](https://img.shields.io/github/issues/AllAroundD/youtube-clone) ![forks](https://img.shields.io/github/forks/AllAroundD/youtube-clone) ![stars](https://img.shields.io/github/stars/AllAroundD/youtube-clone) ![license](https://img.shields.io/github/license/AllAroundD/youtube-clone)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# youtube-clone
 
-## Available Scripts
+This project is a small clone of youtube to demonstrate functionalities.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+For just using the application, there is no installation required. The application url is http://youtube-clone-85cc9.web.app/.
+For the local setup of this application, there are a few npm modules that are required (react, react-scripts, react-dom, etc.). Once the repository is cloned, typing 'npm install' at the command prompt will install all of the required modules.
 
-### `yarn test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+** NOTE: ** This is a working progress and not all of the functionality is working. This is just to demonstrate some of the functionality.
+For just using the application, the url is .app.
+If installing locally, see the installation steps above to install and then run the application to open a browser window/tab.
 
-### `yarn build`
+The sign-in provider is Google. The sign-in will prompt for a Google account if not signed in. To sign-out, click the avatar in the bottom left.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click on the '+' to add a text channel.
+Once in the channel, messages can be added. The messages are stored as collections in the Cloud Firestore.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here is an example of my portfolio in action:
+![youtube demo](./src/public/assets/img/youtube-clone-demo.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `yarn eject`
+[MIT](LICENSE)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+No contributors at this time.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Tests
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+No formal tests documented.
 
-## Learn More
+## Questions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[GitHub Profile](https://github.com/AllAroundD/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-If you have any questions, please contact me at [dougmoore@use.startmail.com](mailto:dougmoore@use.startmail.com?subject=[GitHub]%20Source%20Question).
